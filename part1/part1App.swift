@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct part1App: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //dullView()
+            LoginView()
+            //testView()
+            //testView()
+            //firstloginView(user: .constant(""))
+            //dullView()
+            //RegisterView()
         }
     }
 }
